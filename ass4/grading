@@ -1,0 +1,24 @@
+Q1: 20/20
+
+Q2: 28/30
+Your recursion queries the values opt(i, 0) and opt(0, j), but you haven't defined them. 
+A 2D problem requires base cases along the two back edges. In this case, you should set opt(i, 0) = opt(0, j) = infinity
+
+Q3: 13/20
+1.1
+
+ I see you have a base case however you should explicitly state the value for number of permutations when k=0 which should be 1. 
+
+I am quite confused by your table I can see that you are displaying the different arrangements and the total hunger I believe ? 
+however your for you r examples in 3 people there seems to be a bunch of errors 
+
+1, 3, 2 should have the annoyance of 1 as 2 is less hungry than 3 making 3 annoyed making annoyance == 1 
+
+2, 1, 3 should have the annoyance of 1. as well since 1 is less hungry than 2 making 2 annoyed at the one person ahead of them 
+hence annoyance == 1
+
+2, 3, 1 should have the annoyance of 2 as 2 and 3 are both smaller than 1.  hence annoyance == 2 
+
+Putting this aside your recursive function actually looks ok . Finally there are and few aspects of your explanation missing. This algorithm assumes the person being inserted into the queue is either maximum or minimum hunger values of the old queue needs to be justified.The summation only works because this person can be inserted to different positions where k people in front of him has smaller hunger values also needs to be justified. 
+
+Q4: 30/30
