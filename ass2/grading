@@ -1,0 +1,28 @@
+Q1: 25/30
+M is actually increased by ceil(h[i-1]/h[i]) - 1 instead of floor(h[i-1]/h[I]), 
+to see this, consider the case when h[i-1] = 10 and h[i] = 2 while I won't penalise this.
+
+The general logic to maximise the leftmost stack while minimising the number of splits is correct, 
+however, we have explicitly stated that the standard of proof is much higher in this assignment and the brief explanation 
+in the response does not really prove that the solution is optimal. Why maximising the leftmost stack gives the optimal solution and 
+why splitting into more than ceil(H(i)/l) stacks is not optimal should be proved more formally and can be proved via contradiction/induction
+
+
+
+Q2: 26/30
+2.1 ) Well done!
+
+2.2) Nice job recognizing that an additional proof was required to generalize 2.1 🥳 
+However, your induction proof does not follow. You state that S_{2n - 2} \geq S'_{2n - 2} which is not true. Consider L = [1, 2, 3, 4, 5, 6], L' = [6, 5, 4, 3, 2, 1],
+
+S_{2n - 2} = 1*2 + 3*4 = 14
+S'_{2n -2} = 6 * 5 + 4 * 3 = 42.
+
+You were very close with this solution but require a different set of logic to complete the inductive proof. Refer to the sample answers for an example of a valid inductive proof.
+
+2.3 ) Identical issues to 2.2
+
+
+Q3: 14/20
+
+Q4: 20/20
