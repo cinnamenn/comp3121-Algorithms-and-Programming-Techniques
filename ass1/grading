@@ -1,0 +1,41 @@
+Q1: 24/30
+You need to clearly justify why the solution of x should exist within 1 ... log(V). It is not a known fact for this problem.
+
+Review Feedback:
+
+Please read the marker's feedback to understand why your marks are deduct from question 1.2. 
+We don't know that the lower bound is 1 and upper bound is log(V). 
+So, you need to clearly justify why the solution of x should exist within 1 ... log(V).
+
+Q2: 23/30
+
+Q3: 17/20
+Don't forget to prove your algorithm works. We weight correctness justification highly in this course, 
+and it is expected that you not only provide a solution, but prove that it works. 
+For example, explain why m - i + 1 is added to the inversion count - what does this represent?
+
+You need to explain how you find B_index, and justify its complexity.
+
+Q4: 7/20
+4.1 this is only half answered, you state how to do the preprocess, but from that preprocessing you don't state how to calculate the number of red flowers in a given subarray (-3)
+
+4.2 you seem to have misread the question. we wanted red flowers inside > yellow flowers OUTSIDE, you seem to be trying to solve for both inside.
+
+this was a pretty good approach to that problem though, so well done there
+
+===================
+
+Review request response:
+
+your review request states that it is not stated in the question. 
+I direct your attention to the question, which is included as part of your submission. 
+"Question 4 Red & Yellow Flowers [20 marks] You are given an array of n flowers that are either red or yellow. 
+Your goal is to find the number of subarrays where there are more red flowers contained within the subarray, 
+than there are yellow flowers outside the subarray"
+
+4.2 then instructs you to find an algorithm to achieve your goal. 
+Which, as quoted above, it to find the number of subarrays where there are more red flowers contained within the subarray, 
+than there are yellow flowers outside the subarray.
+This was very clearly laid out. I'm sorry you did not understand that, 
+but before submitting a remark request rereading the question would have been wise. 
+I dont know what to do other than quote the question to you.   Previous mark stands
