@@ -1,10 +1,7 @@
 # comp3121-Algorithms-and-Programming-Techniques
 UNSW 22T3 Algorithms and Programming Techniques
 
-ASS1: divide and conquer
-
-ASS2: greedy
-
-ASS3: maxflow
-
-ASS4: dynamic programming
+ass1: divide and conquer
+ass2: greedy
+ass3: maxflow
+ass4: dynamic programming
